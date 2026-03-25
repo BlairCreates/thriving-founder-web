@@ -32,12 +32,14 @@ export default function ContentSections() {
             We build your dream business with you—and support you to thrive.
           </h2>
           <p className="font-inter text-lg md:text-xl text-charcoal leading-relaxed mb-6">
-            Thriving Founder exists to help mid-career professionals build freedom-based businesses 
-            without sacrificing the life they've already built.
+            Thriving Founder exists for mid-career professionals who know they're capable of more — 
+            and are ready to build something that belongs entirely to them, without unravelling 
+            the life they've already earned.
           </p>
           <p className="font-inter text-lg md:text-xl text-charcoal leading-relaxed">
-            This is a serious business investment. You receive tangible business assets, 
-            deep transformational coaching, and a proven path to your first paying client.
+            This is not a course. It is a genuine business partnership — one that delivers 
+            tangible assets, deep transformational work, and a proven path to your first paying client. 
+            What you invest in here becomes the foundation of everything that follows.
           </p>
         </div>
       </Section>
@@ -98,13 +100,15 @@ export default function ContentSections() {
               You leave with a live brand, a professional website, a marketing system, 
               your first client, and the internal operating system to sustain it all.
             </p>
-            <motion.button
-              whileHover={{ scale: 1.02 }}
-              whileTap={{ scale: 0.98 }}
-              className="bg-gold hover:bg-gold/90 text-navy font-inter font-semibold text-lg px-10 py-4 rounded-lg transition-colors"
-            >
-              Learn More
-            </motion.button>
+            <Link href="#program">
+              <motion.span
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                className="inline-block bg-gold hover:bg-gold/90 text-navy font-inter font-semibold text-lg px-10 py-4 rounded-lg transition-colors cursor-pointer"
+              >
+                Learn More
+              </motion.span>
+            </Link>
           </div>
           <div className="bg-navy/5 rounded-2xl p-12 border border-navy/10">
             <h3 className="font-playfair text-3xl text-navy mb-8">The ON Method™</h3>
